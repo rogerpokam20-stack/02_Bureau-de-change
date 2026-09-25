@@ -1,0 +1,37 @@
+Début
+
+    solde ← 1000
+    taux ← 1.024
+    frais ← 5
+
+    Demander le numéro de compte
+    Lire numéroCompte
+
+    Demander le nom de famille
+    Lire nom
+
+    Afficher le solde
+    Afficher le taux de change
+    Afficher les frais
+
+    Demander la somme souhaitée en Euro
+    Lire sommeEuro
+
+    sommeCHF ← sommeEuro / taux
+
+    sommeCHF ← arrondir à 2 chiffres
+
+    nouveauSolde ← solde - sommeCHF - frais
+
+    Afficher sommeCHF et nouveauSolde
+
+    Afficher le ticket avec :
+        nom
+        numéro de compte
+        somme en Euro
+        taux de change
+        montant en CHF
+        frais
+        solde restant
+
+Fin
